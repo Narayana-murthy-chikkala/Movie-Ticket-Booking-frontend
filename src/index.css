@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E50914; /* Netflix-style vibrant red */
+  --color-primary-dull: #B20710; /* Darker variant for hover/focus states */
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #B20710 #1A1A1A; /* Red on dark background */
+}
+
+body {
+  color: #FFFFFF;
+  background-color: black; /* Deep black-blue background for immersive look */
+}
+

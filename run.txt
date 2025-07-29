@@ -1,0 +1,2 @@
+to start main server- npm run dev
+to start backend server-npm start
